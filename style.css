@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: ;
+    width: ;
+    height: ;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+    grid-auto-rows: 200px 200px 200px 200px 200px 200px 200px;
+
+    margin-left: 50px;
+}
+
+.grid-item {
+    border: 1px solid #DCDCDC;
+}
+
+.header {
+    display: flex;
+    background-color: #e0e6e6	;
+    box-shadow: 0px 4px 3px #C0C0C0;
+}
+
+.header__button {
+    width: 80px;
+    height: 30px;
+
+    margin-top: 50px;
+    margin-bottom: 25px;
+
+    color: white;
+    background-color: rgb(10, 75, 160);
+    border-radius: 5%;
+    border-style: none;
+    box-shadow: 0px 3px 3px #C0C0C0;
+}
+
+.button-add {
+    margin-left: 50px;
+    margin-right: 8px;
+}
+
+.form__container {
+    display: flex;
+}
+
+.form__container button {
+    width: 10px;
+    height: 10px;
+}
+
+.search::before {
+    background-image: url(images/search-icon.png);
+}
+
+.search {
+    
+}
