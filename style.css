@@ -147,7 +147,8 @@ body {
     border-color: rgb(88, 226, 244);
 }
 
-.pop-up {
+.pop-up,
+.pop-up2 {
     width: 360px;
     border: 2px solid #d3cdcd;
     border-radius: 2px;
@@ -160,7 +161,8 @@ body {
     align-items: center;
 }
 
-.add-event input {
+.add-event input,
+.add-event2 input {
     width: 300px;
     margin-bottom: 5px;
 }
@@ -184,3 +186,7 @@ body {
     margin-left: 28px;
 }
 
+.pop-up2 {
+    padding: 25px;
+    height: 125px;
+}
