@@ -15,6 +15,13 @@ body {
     margin-left: 140px;
 }
 
+.input {
+    padding: 5px;
+    border: solid 1px #bdb6b6;
+    border-radius: 2px;
+    box-shadow: inset 0px 2px 1px 1px #C0C0C0;
+}
+
 .header {
     display: flex;
     background-color: #e0e6e6;
@@ -67,10 +74,6 @@ body {
 
 .search__input {
     width: 220px;
-    padding: 5px;
-    border: solid 1px #bdb6b6;
-    border-radius: 2px;
-    box-shadow: inset 0px 2px 1px 1px #C0C0C0;
 }
 
 .navigation {
@@ -144,5 +147,40 @@ body {
     border-color: rgb(88, 226, 244);
 }
 
+.pop-up {
+    width: 360px;
+    border: 2px solid #d3cdcd;
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px 0px;
+}
 
+.add-event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-event input {
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+.add-event input:first-child {
+    margin-top: 25px;
+}
+
+.add-event input:last-child {
+    margin-top: 30px;
+    height: 140px;
+}
+
+.pop-up__button {
+    margin: 20px 5px 30px 0px;
+    border-radius: 5px;
+    border: 2px solid #d3cdcd;
+}
+
+.done-button {
+    margin-left: 28px;
+}
 

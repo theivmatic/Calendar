@@ -14,7 +14,7 @@
         <div class="form__container">
           <button type="submit"></button>
           <form class="search">
-            <input class="search__input" type="search" placeholder="Событие, дата или участник">
+            <input class="input search__input" type="search" placeholder="Событие, дата или участник">
           </form>
         </div>
       </header>
@@ -69,6 +69,20 @@
           <div class="grid-item">29</div>
           <div class="grid-item">30</div>
           <div class="grid-item">31</div>
+        </section>
+
+        <section class="pop-up">
+          <form class="add-event">
+            <input type="text" class="input pop-up__event" placeholder="Событие">
+            <input type="text" class="input pop-up__date" placeholder="День, месяц, год">
+            <input type="text" class="input pop-up__names"  placeholder="Имена участников">
+            <input type="text" class="input pop-up__description" placeholder="Описание">
+          </form>
+          <div class="add-event__buttons">
+            <button class="pop-up__button done-button" type="submit">Готово</button>
+            <button class="pop-up__button delete-button" type="button">Удалить</button>
+          </div>
+          
         </section>
       </main>
     </div>
