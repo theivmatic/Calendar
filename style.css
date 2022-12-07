@@ -15,18 +15,6 @@ body {
     margin-left: 140px;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px;
-    grid-auto-rows: 150px 150px 150px 150px 150px 150px 150px;
-
-    margin-left: 50px;
-}
-
-.grid-item {
-    border: 1px solid #DCDCDC;
-}
-
 .header {
     display: flex;
     background-color: #e0e6e6;
@@ -129,4 +117,19 @@ body {
     width: 80px;
     height: 20px;
     margin-left: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px;
+    grid-auto-rows: 150px 150px 150px 150px 150px 150px 150px;
+
+    margin-left: 50px;
+}
+
+.grid-item {
+    border: 1px solid #e7e5e5;
+    border-radius: 2px;
+    color: #8b8484;
+    padding: 10px;
 }
