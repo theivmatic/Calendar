@@ -148,7 +148,8 @@ body {
 }
 
 .pop-up,
-.pop-up2 {
+.pop-up2,
+.pop-up3 {
     width: 360px;
     border: 2px solid #d3cdcd;
     border-radius: 2px;
@@ -162,7 +163,8 @@ body {
 }
 
 .add-event input,
-.add-event2 input {
+.add-event2 input,
+.pop-up__description input {
     width: 300px;
     margin-bottom: 5px;
 }
@@ -189,4 +191,23 @@ body {
 .pop-up2 {
     padding: 25px;
     height: 125px;
+}
+
+.pop-up3 {
+    padding: 25px;
+    max-height: 360px;
+}
+
+.pop-up3 h3 {
+    margin: 0px;
+}
+
+.participans {
+    color:#8b8484;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.pop-up__description input {
+    height: 140px;
 }
