@@ -133,3 +133,16 @@ body {
     color: #8b8484;
     padding: 10px;
 }
+
+.grid-item:hover {
+    background-color: #f2efef;
+    color: #151515;
+}
+
+.grid-item:active {
+    background-color: rgb(217, 241, 253);
+    border-color: rgb(88, 226, 244);
+}
+
+
+
