@@ -54,7 +54,7 @@ body {
 
 .form__container {
     display: flex;
-    margin: 50px 0px 25px 700px;
+    margin: 50px 0px 25px 640px;
 }
 
 .form__container button {
@@ -78,9 +78,55 @@ body {
 }
 
 .search__input {
+    width: 220px;
     padding: 5px;
     border: solid 1px #bdb6b6;
     border-radius: 2px;
     box-shadow: inset 0px 2px 1px 1px #C0C0C0;
-    
+}
+
+.navigation {
+    display: flex;
+    margin: 20px 0px 20px 50px;
+}
+
+.switch-left, 
+.switch-right {
+    background-color: white;
+    border: 2px solid #e7e5e5;
+    border-radius: 3px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+.switch-left {
+    margin-right: 10px;
+}
+
+.switch-right {
+    margin-left: 10px;
+}
+
+.pointer-right,
+.pointer-left {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 4px;
+    bottom: 4px;
+}
+
+.date {
+    font-size: 20px;
+}
+
+.today-button {
+    background-color: white;
+    color: #464343;
+    border: 2px solid #e7e5e5;
+    border-radius: 3px;
+    width: 80px;
+    height: 20px;
+    margin-left: 10px;
 }
