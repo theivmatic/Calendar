@@ -26,6 +26,10 @@ li {
     box-shadow: inset 0px 2px 1px 1px #C0C0C0;
 }
 
+.input:focus {
+    outline: none;
+}
+
 .header {
     display: flex;
     background-color: #e0e6e6;
@@ -161,6 +165,20 @@ li {
     box-shadow: 0px 0px 6px 0px;
 }
 
+.pop-up,
+.pop-up2 {
+    position: relative;
+    margin: auto;
+    z-index: 2;
+}
+
+.pop-up__close {
+    position: absolute;
+    top: 1px;
+    right: 6px;
+    cursor: pointer;
+}
+
 .add-event {
     display: flex;
     flex-direction: column;
@@ -186,11 +204,16 @@ li {
 }
 
 .done-button {
-    margin-left: 28px;
+    margin-left: 3px;
 }
 
 .pop-up2 {
+    display: ;
     height: 125px;
+}
+
+.pop-up2 .active {
+    display: block;
 }
 
 .pop-up3 {
@@ -224,6 +247,10 @@ li {
 
 .search__item {
     border-bottom: 1px solid rgb(229, 226, 226);
+}
+
+.search__item:last-child {
+    border: none;
 }
 
 .search__item h4 {

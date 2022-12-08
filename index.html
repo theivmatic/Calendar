@@ -9,7 +9,7 @@
   <body>
     <div class="center">
       <header class="header">
-        <button type="button" class="header__button button-add">Добавить</button>
+        <button type="button" class="header__button button-add open_pop-up2" id="open_pop-up2">Добавить</button>
         <button type="button" class="header__button button-refresh">Обновить</button>
         <div class="form__container">
           <button type="submit"></button>
@@ -82,13 +82,15 @@
             <button class="pop-up__button done-button" type="submit">Готово</button>
             <button class="pop-up__button delete-button" type="button">Удалить</button>
           </div>
+          <div class="pop-up__close" id="pop-up__close">&#10006</div>
         </section>
 
-        <section class="pop-up2">
+        <section class="pop-up2" id="pop-up2">
           <form class="add-event2">
             <input type="text" class="input" placeholder="5 марта, 14:00, День рождение">
           </form>
           <button type="submit" class="pop-up__button">Создать</button>
+          <div class="pop-up__close" id="pop-up__close">&#10006</div>
         </section>
 
         <section class="pop-up3">
@@ -106,7 +108,45 @@
             <button class="pop-up__button" type="button">Удалить</button>
           </div>
         </section>
+
+        <section class="search__pop-up">
+          <ul class="search__list">
+            <li class="search__item">
+              <h4>Митинг на Болотной</h4>
+              <p>6 марта</p>
+            </li>
+            <li class="search__item">
+              <h4>Отчет о митинге</h4>
+              <p>2 апреля</p>
+            </li>
+            <li class="search__item">
+              <h4>Забрать штаны болотного</h4>
+              <p>15 апреля</p>
+            </li>
+            <li class="search__item">
+              <h4>Встреча с Болотниковым</h4>
+              <p>23 апреля</p>
+            </li>
+            <li class="search__item">
+              <h4>Митинг на Болотной 2</h4>
+              <p>1 мая</p>
+            </li>
+            <li class="search__item">
+              <h4>Свозить болонку к ветеринару</h4>
+              <p>16 мая</p>
+            </li>
+            <li class="search__item">
+              <h4>Рецепт Болоньезе</h4>
+              <p>21 мая</p>
+            </li>
+            <li class="search__item">
+              <h4>Отпуск в Болонье</h4>
+              <p>29 мая</p>
+            </li>
+          </ul>
+        </section>
       </main>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
