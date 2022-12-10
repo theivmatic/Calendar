@@ -50,7 +50,7 @@ li {
     box-shadow: 0px 3px 3px #C0C0C0;
 }
 
-.button-add {
+.add-button {
     margin-left: 50px;
     margin-right: 8px;
 }
@@ -80,7 +80,7 @@ li {
     margin-left: 10px;
 }
 
-.search__input {
+.search input {
     width: 220px;
 }
 
@@ -163,10 +163,6 @@ li {
     border: 2px solid #d3cdcd;
     border-radius: 2px;
     box-shadow: 0px 0px 6px 0px;
-}
-
-.pop-up,
-.pop-up2 {
     position: relative;
     margin: auto;
     z-index: 2;
@@ -208,7 +204,6 @@ li {
 }
 
 .pop-up2 {
-    display: ;
     height: 125px;
 }
 
@@ -239,6 +234,7 @@ li {
     border: 2px solid #d3cdcd;
     border-radius: 2px;
     box-shadow: 0px 0px 6px 0px;
+    margin: auto;
 }
 
 .search__list {

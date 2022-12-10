@@ -7,14 +7,13 @@
   </head>
 
   <body>
-    <div class="center">
-      <header class="header">
-        <button type="button" class="header__button button-add open_pop-up2" id="open_pop-up2">Добавить</button>
-        <button type="button" class="header__button button-refresh">Обновить</button>
+    <header class="header">
+        <button type="button" class="header__button add-button">Добавить</button>
+        <button type="button" class="header__button">Обновить</button>
         <div class="form__container">
           <button type="submit"></button>
           <form class="search">
-            <input class="input search__input" type="search" placeholder="Событие, дата или участник">
+            <input class="input" type="search" placeholder="Событие, дата или участник">
           </form>
         </div>
       </header>
@@ -22,14 +21,14 @@
       <main>
         <section>
           <nav class="navigation">
-            <button class="button switch-left" type="button">
-              <img class="pointer-left" src="images/pointer-left.png">
+            <button class="switch-left" type="button">
+              <img class="pointer-left" src="images/pointer-left.png" alt="Кнопка влево">
             </button>
             <time class="date" datetime="2013-03">Март 2013</time>
-            <button class="button switch-right" type="button">
-              <img class="pointer-right" src="images/pointer-right.png">
+            <button class="switch-right" type="button">
+              <img class="pointer-right" src="images/pointer-right.png" alt="Кнопка вправо">
             </button>
-            <button class="button today-button">Сегодня</button>
+            <button class="today-button">Сегодня</button>
           </nav>
         </section>
 
@@ -149,4 +148,3 @@
     </div>
     <script src="script.js"></script>
   </body>
-</html>
