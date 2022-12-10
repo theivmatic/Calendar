@@ -2,8 +2,8 @@ body {
     margin: 0;
     padding: 0;
 
-    font-family: ;
-    width: 1240px;
+    font-family: "Roboto", "Arial", sans-serif;
+    width: 1240px;  
     height: ;
 }
 
@@ -21,7 +21,7 @@ li {
 
 .input {
     padding: 5px;
-    border: solid 1px #bdb6b6;
+    border: solid 1px #cfcfcf;
     border-radius: 2px;
     box-shadow: inset 0px 2px 1px 1px #C0C0C0;
 }
@@ -32,7 +32,7 @@ li {
 
 .header {
     display: flex;
-    background-color: #e0e6e6;
+    background-color: #f4f4f4;
     box-shadow: 0px 4px 3px #C0C0C0;
 }
 
@@ -44,10 +44,18 @@ li {
     margin-bottom: 25px;
 
     color: white;
-    background-color: rgb(10, 75, 160);
+    background-color: #0271c7;
     border-radius: 5%;
     border-style: none;
     box-shadow: 0px 3px 3px #C0C0C0;
+}
+
+.header__button:hover {
+    background-color: #27a1ff;
+}
+
+.header__button:active {
+    background-color: #c2e4fe;
 }
 
 .add-button {
@@ -65,7 +73,7 @@ li {
     height: 15px;
 
     background-image: url(images/search-icon.svg);
-    background-color: #e0e6e6;
+    background-color: #f4f4f4;
     border: none;
     
     margin-top: 7px;
@@ -92,11 +100,31 @@ li {
 .switch-left, 
 .switch-right {
     background-color: white;
-    border: 2px solid #e7e5e5;
+    border: 2px solid #cfcfcf;
     border-radius: 3px;
     width: 20px;
     height: 20px;
     position: relative;
+}
+
+.switch-left:hover,
+.switch-right:hover,
+.today-button:hover,
+.pop-up__button:hover {
+    background-color: #6b6b6b;
+    border-color: #505050;
+    color: white;
+    box-shadow: inset 0px 0px 2px 0px #6e6d6d;
+}
+
+.switch-left:active, 
+.switch-right:active,
+.today-button:active,
+.pop-up__button:active {
+    background-color: #cfcfcf;
+    border-color: #cfcfcf;
+    color: white;
+    box-shadow: none;
 }
 
 .switch-left {
@@ -118,16 +146,18 @@ li {
 
 .date {
     font-size: 20px;
+    color: #292929;
 }
 
 .today-button {
     background-color: white;
-    color: #464343;
-    border: 2px solid #e7e5e5;
+    color: #292929;
+    border: 2px solid #cfcfcf;
     border-radius: 3px;
     width: 80px;
     height: 20px;
     margin-left: 10px;
+    box-shadow: inset 0px 0px 2px 0px #bbb9b9;
 }
 
 .grid-container {
@@ -141,17 +171,19 @@ li {
 .grid-item {
     border: 1px solid #e7e5e5;
     border-radius: 2px;
-    color: #8b8484;
+    color: #6b6b6b;
     padding: 10px;
 }
 
 .grid-item:hover {
-    background-color: #f2efef;
+    background-color: #27a1ff;
     color: #151515;
 }
 
 .grid-item:active {
-    background-color: rgb(217, 241, 253);
+    background-color: #c2e4fe;
+    box-shadow: 0px 0px 6px 0px #27a1ff;
+    box-shadow: ;
     border-color: rgb(88, 226, 244);
 }
 
@@ -235,10 +267,8 @@ li {
     border-radius: 2px;
     box-shadow: 0px 0px 6px 0px;
     margin: auto;
-}
-
-.search__list {
-    
+    color: #292929;
+    z-index: 2;
 }
 
 .search__item {
@@ -254,7 +284,7 @@ li {
 }
 
 .search__item p{
-    color: gray;
+    color: #292929;
     font-size: 14px;
     margin-bottom: 5px;
 }
